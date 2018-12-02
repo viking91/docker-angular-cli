@@ -10,6 +10,7 @@ ng () {
         $tty \
         --interactive \
         --rm \
+        --net host \
         --user $(id -u):$(id -g) \
         --volume /etc/passwd:/etc/passwd:ro \
         --volume /etc/group:/etc/group:ro \
