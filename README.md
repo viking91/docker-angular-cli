@@ -3,7 +3,7 @@
 ## This command can be added to ~/.bashrc or ~/.zshrc to use ng as it is installed on the machine
 
 ```
-compass () {
+ng () {
     tty=
     tty -s && tty=--tty
     docker run \
